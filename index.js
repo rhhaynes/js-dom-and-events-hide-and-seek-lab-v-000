@@ -18,6 +18,7 @@ function deepestChild(){
   let newChild = document.getElementById('app grand-node');
   let flag = 1;
   while (flag>0){
+    debugger;
     oldChild = newChild;
     newChild = oldChild.querySelector('div');
     if (!newChild){flag = 1}
