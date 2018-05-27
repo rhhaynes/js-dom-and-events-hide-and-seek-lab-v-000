@@ -15,12 +15,12 @@ function increaseRankBy(n){
 
 function deepestChild(){
   let oldChild = '';
-  let newChild = document.getElementById('app grand-node');
+  let newChild = document.getElementById('grand-node');
   let flag = 1;
   while (flag>0){
     oldChild = newChild;
     newChild = oldChild.querySelector('div');
-    if (!newChild){flag = 1}
+    if (!newChild){flag = 0}
   }
   return oldChild;
 }
