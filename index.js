@@ -22,5 +22,5 @@ function deepestChild(){
     newChild = oldChild.querySelector('div');
     if (!newChild){flag = 1}
   }
-  return child;
+  return oldChild;
 }
